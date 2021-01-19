@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background: #ffffff;
+}
+
+#color {
+  background: #bb4d4d;
+}
+
+#logo {
+  padding: 20px 0;
+  display: block;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 850px) {
+  #logo {
+    width: 40%;
+  }
+}
+
+h1 {
+  margin-top: 2%;
+
+}
+h1, p {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+

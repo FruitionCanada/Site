@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background: #ffffff;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mobile-display {
+  position: absolute;
+  text-align: right;
+  font-size: 30px;
+  text-decoration: none;
+  background: #a02222;
+  right: 5%;
+  top: 2%;
+  padding: 10px;
+  border-radius: 15px;
+  color: #ffffff;
+}
+
+
+#mobile-display:hover,
+#mobile-display:active {
+  color: #a02222;
+  background: #ffffff;
+}
+
+@media (min-width: 550px) {
+  #mobile-display {
+    display: none;
+  }
+}
+
+@media (max-width: 550px) {
+  header {
+    display: none;
+  }
+}
+
+#logo {
+    position: relative;
+    padding-left: 40px;
+}
+
+.main-nav__item {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.main-nav__items {
+    align-items: center;
+    padding-right: 50px
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+    color: #a02222;
+}
+section {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+
+#section-1 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#section-1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center-text {
+    position: absolute;
+    top: 300px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#bottom-center-text {
+    font-weight: normal;
+    font-size: 40px;
+    top: 400px;
+}
+
+@media (max-width: 750px) {
+    #bottom-center-text {
+        top: 600px;
+    }
+}
+
+@media (max-width: 1919px) {
+    #bottom-center-text {
+        top: 420px;
+    }
+}
+
+@media (max-width: 1060px) {
+    #bottom-center-text {
+        top: 450px;
+    }
+}
+
+@media (max-width: 940px) {
+    #bottom-center-text {
+        top: 500px;
+    }
+}
+
+@media (max-width: 735px) {
+    #bottom-center-text {
+        top: 540px;
+    }
+}
+
+@media (max-width: 479px) {
+    #bottom-center-text {
+        font-size: 30px;
+    }
+
+    .center-text {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 300px) {
+    #bottom-center-text {
+        font-size: 20px;
+    }
+
+    .center-text {
+        font-size: 30px;
+    }
+}
+
+#text-content {
+  padding-top: 30px;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+#logo-mobile {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+  width: 50%;
+}
+
+@media (min-width: 550px) {
+  #logo-mobile {
+    display: none;
+  }
+}
