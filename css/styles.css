@@ -21,6 +21,10 @@ header {
     align-items: center;
 }
 
+#important {
+    color: #ff0000;
+}
+
 #mobile-display {
   position: absolute;
   text-align: right;
