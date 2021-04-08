@@ -151,6 +151,7 @@ h1 {
 
 @media (max-width: 479px) {
     #bottom-center-text {
+        top: 560px;
         font-size: 30px;
     }
 
